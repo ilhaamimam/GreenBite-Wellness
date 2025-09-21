@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenBite | Healthy Recipes</title>
+  <link rel="icon" href="./Fevicons/favicon-32x32.png" type="image/png">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <script src="./Script/scripts.js" defer></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">GreenBite</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html" class="active">Recipes</a></li>
+        <li><a href="calculator.html">Nutrition Calculator</a></li>
+        <li><a href="workout.html">Workout</a></li>
+        <li><a href="mindfullness.html">Mindfulness</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Recipes -->
+  <section class="recipes">
+    <h1>Healthy Recipes</h1>
+    <input type="text" id="recipeSearch" placeholder="Search recipes...">
+    <div class="recipe-categories">
+  <button data-category="all" class="active">All</button>
+  <button data-category="breakfast">Breakfast</button>
+  <button data-category="lunch">Lunch</button>
+  <button data-category="dinner">Dinner</button>
+  <button data-category="snack">Snack</button>
+</div>
+<br>
+    <div class="recipe-cards" id="recipeCards">
+      <!-- Cards populated by JS -->
+    </div>
+    
+  </section>
+
+  <!-- Recipe Modal -->
+  <div class="modal" id="recipeModal">
+    <div class="modal-content">
+  <span class="close">&times;</span>
+  <h2 id="modalTitle"></h2>
+  <img id="modalImg" src="" alt="Recipe image">
+  <p id="modalDesc"></p>
+
+  <h3>Ingredients</h3>
+  <ul id="modalIngredients"></ul>
+
+  <h3>Steps</h3>
+  <ol id="modalSteps"></ol>
+
+  <h3>Nutrition Facts</h3>
+  <table class="nutrition-table">
+    <tbody id="modalNutrition"></tbody>
+  </table>
+</div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 GreenBite. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Avocado Salad",
+    "category": "snack",
+    "img": "./Images/avacados.jpeg",
+    "description": "Fresh avocado with greens.",
+    "ingredients": ["2 Avocados", "Lettuce", "Olive oil", "Lemon juice"],
+    "steps": ["Cut avocado & lettuce", "Mix in bowl", "Add dressing", "Serve fresh"],
+    "nutrition": { "Calories": 250, "Carbs": "12g", "Protein": "4g", "Fat": "20g" }
+  },
+  {
+    "title": "Oatmeal Bowl",
+    "category": "breakfast",
+    "img": "./Images/image.png",
+    "description": "Energizing breakfast bowl.",
+    "ingredients": ["1 cup Oats", "1 Banana", "Honey", "Almonds"],
+    "steps": ["Cook oats", "Add banana slices", "Top with honey & almonds"],
+    "nutrition": { "Calories": 300, "Carbs": "45g", "Protein": "8g", "Fat": "9g" }
+  },
+  {
+    "title": "Veggie Omelette",
+    "category": "breakfast",
+    "img": "./Images/omettle.jpeg",
+    "description": "Protein-packed omelette with fresh veggies.",
+    "ingredients": ["2 Eggs", "1/4 cup Spinach", "1/4 Onion (chopped)", "1/4 Tomato (chopped)", "Salt & Pepper"],
+    "steps": ["Whisk eggs with salt and pepper", "Sauté onion, tomato, and spinach", "Pour eggs and cook until fluffy"],
+    "nutrition": { "Calories": 250, "Carbs": "5g", "Protein": "18g", "Fat": "18g" }
+  },
+  {
+    "title": "Grilled Chicken Breast",
+    "category": "lunch",
+    "img": "./Images/Grilled-Chicken.jpeg",
+    "description": "Lean protein-packed grilled chicken.",
+    "ingredients": ["200g Chicken Breast", "1 tbsp Olive Oil", "1 tsp Lemon Juice", "Salt & Pepper"],
+    "steps": ["Marinate chicken with oil, lemon, salt, and pepper", "Grill for 6–7 minutes each side", "Serve hot"],
+    "nutrition": { "Calories": 400, "Carbs": "0g", "Protein": "35g", "Fat": "18g" }
+  },
+  {
+    "title": "Veggie Stir-Fry",
+    "category": "dinner",
+    "img": "./Images/broccoli-1.jpeg",
+    "description": "Colorful and nutrient-rich dinner.",
+    "ingredients": ["1 cup Broccoli", "1 Carrot (sliced)", "1 Bell Pepper", "2 tbsp Soy Sauce", "1 tbsp Olive Oil"],
+    "steps": ["Heat oil in a pan", "Add veggies and stir-fry for 5 minutes", "Add soy sauce and cook another 2 minutes"],
+    "nutrition": { "Calories": 350, "Carbs": "40g", "Protein": "10g", "Fat": "12g" }
+  }
+]

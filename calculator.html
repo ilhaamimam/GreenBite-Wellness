@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenBite | Nutrition Calculator</title>
+  <link rel="icon" href="./Fevicons/favicon-32x32.png" type="image/png">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <script src="./Script/scripts.js" defer></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">GreenBite</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="calculator.html" class="active">Nutrition Calculator</a></li>
+        <li><a href="workout.html">Workout</a></li>
+        <li><a href="mindfullness.html">Mindfulness</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Calculator -->
+  <section class="calculator">
+    <h1>Calorie & Nutrition Calculator</h1>
+    <form id="calcForm">
+      <input type="number" id="age" placeholder="Age (years)" required>
+      <select id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <input type="number" id="height" placeholder="Height (cm)" required>
+      <input type="number" id="weight" placeholder="Weight (kg)" required>
+      <select id="activity">
+        <option value="1.2">Sedentary</option>
+        <option value="1.375">Lightly active</option>
+        <option value="1.55">Moderately active</option>
+        <option value="1.725">Very active</option>
+        <option value="1.9">Super active</option>
+      </select>
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div class="results" id="results"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 GreenBite. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenBite | Workout Generator</title>
+  <link rel="icon" href="./Fevicons/favicon-32x32.png" type="image/png">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <script src="./Script/scripts.js" defer></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">GreenBite</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="workout.html" class="active">Workout</a></li>
+        <li><a href="mindfullness.html">Mindfulness</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Workout Generator -->
+  <section class="workout">
+    <h1>Workout Generator</h1>
+    <form id="workoutForm">
+      <label for="bodyPart">Choose body part:</label>
+      <select id="bodyPart">
+        <option value="full body">Full Body</option>
+        <option value="arms">Arms</option>
+        <option value="legs">Legs</option>
+        <option value="core">Core</option>
+            </select>
+
+      <label for="equipment">Choose equipment:</label>
+      <select id="equipment">
+        <option value="none">None</option>
+        <option value="dumbbells">Dumbbells</option>
+        <option value="resistance band">Resistance Band</option>
+      </select>
+
+      <button type="submit">Generate Workout</button>
+    </form>
+
+    <div id="workoutPlan"></div>
+
+    <div id="timerSection" style="display:none;">
+      <h3>Exercise Timer</h3>
+      <p id="countdown">30</p>
+      <button id="startTimer">Start Timer</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 GreenBite. All rights reserved.</p>
+  </footer>
+</body>
+</html>
