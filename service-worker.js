@@ -1,10 +1,10 @@
 const CACHE_NAME = "greenbite-cache-v1";
 const urlsToCache = [
   "/",
-  "/index.html",
-  "/style.css",
-  "/script.js",
-  "/manifest.json"
+  "./index.html",
+  "./CSS/styles.css",
+  "./Script/script.js",
+  "./manifest.json"
 ];
 
 // Install service worker
